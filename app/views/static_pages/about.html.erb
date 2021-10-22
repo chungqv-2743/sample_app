@@ -1,0 +1,12 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".header" %></h1>
+<p><%= sanitize t(".content",
+  link_rails_tutorial: link_to(sanitize(t(".text.rails_tutorial")),
+    Settings.rails_tutorial),
+  link_learnenough: link_to(t(".text.learnenough"),
+    Settings.learn_enough_web),
+  link_book: link_to(t(".text.book"),
+    Settings.rails_book),
+  link_rails: link_to(t(".text.rails"),
+    Settings.rails)) %>
+</p>
