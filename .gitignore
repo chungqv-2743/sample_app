@@ -39,10 +39,10 @@
 yarn-debug.log*
 .yarn-integrity
 
-# Ignore file CI local
-.framgia-ci-reports/
-.framgia-ci-result.temp.yml
-
 # Ignore config files
 /config/credentials.yml.enc
 /config/database.yml
+
+# Ignore file CI local
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
