@@ -46,3 +46,9 @@ yarn-debug.log*
 # Ignore file CI local
 .framgia-ci-reports/
 .framgia-ci-result.temp.yml
+
+# Ignore all test
+/test/
+
+config/settings.local.yml
+config/settings/*.local.yml
