@@ -49,6 +49,6 @@ yarn-debug.log*
 
 # Ignore all test
 /test/
-
+# Ignore setting config
 config/settings.local.yml
 config/settings/*.local.yml
