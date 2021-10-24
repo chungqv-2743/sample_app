@@ -1,0 +1,15 @@
+
+<footer class="footer">
+  <small><%= sanitize t(".content",
+    link_page: link_to(t(".text_page"), Settings.rails_tutorial),
+    link_author: link_to(t(".text_author").html_safe,
+      Settings.author)) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".news"), Settings.rails_news %></li>
+    </ul>
+  </nav>
+</footer>

@@ -1,5 +1,18 @@
 vi:
   base_title: "Hướng dan Ruby on Rails Sample App"
+  layouts:
+    header:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      sampleapp: "Ứng dụng mẫu"
+    footer:
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      content: "%{link_page} bởi %{link_author}"
+      text_page: "Hướng dẫn Ruby on Rails"
+      text_author: "Michael Hartl"
   static_pages:
     about:
       header: "Về nội dung"
@@ -32,3 +45,9 @@ vi:
       title: "Trang chủ"
       content: "Đây là trang chủ cho ứng dụng mẫu của %{link}."
       text: "Hướng dẫn Ruby on Rails"
+      signup: "Đăng ký ngay!"
+  users:
+    new:
+      header: "Đăng ký"
+      title: "Đăng ký"
+      content: "Đây sẽ là trang đăng ký cho người dùng mới."

@@ -1,0 +1,9 @@
+<%= link_to "En", locale:"en" %>
+<%= link_to "Vi", locale:"vi" %>
+<%= csrf_meta_tags %>
+<%= csp_meta_tag %>
+
+<%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+<%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+<%= javascript_include_tag "i18n" %>
+<%= javascript_include_tag "translations", skip_pipeline: true %>
