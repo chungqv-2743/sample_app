@@ -34,6 +34,11 @@ en:
   wellcome: "Welcome to the Sample App!"
   error_user: "Not found user"
   invalid: "invalid email or password"
+  profile_updated: "Profile updated"
+  update_fail: "Update fail"
+  please_log_in: "Please log in"
+  user_deleted: "Delete success"
+  delete_fail: "Delete fail"
   layouts:
     header:
       home: "Home"
@@ -85,6 +90,9 @@ en:
       text: "Ruby on Rails Tutorial"
       signup: "Sign up now!"
   users:
+    index:
+      title: "All users"
+      header: "All users"
     new:
       header: "Sign up"
       title: "Sign up"
@@ -93,6 +101,18 @@ en:
       password: "Password"
       password_confirmation: "Password Confirmation"
       create_account: "Create my account"
+    edit:
+      title: "Edit user"
+      header: "Update your profile"
+      save_changes: "Save changes"
+      change: "change"
+    form:
+      name: "Name"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
+    user:
+      delete: "Delete"
+      sure: "You sure delete ?"
   shared:
     error_messages:
       contain: "The form contains"
