@@ -2,12 +2,18 @@ vi:
   base_title: "Hướng dẫn Ruby on Rails Sample App"
   wellcome: "Chào mừng đến với Sample App!"
   error_user: "Không tìm thấy người dùng"
+  invalid: "email hoặc mật khẩu không hợp lệ"
   layouts:
     header:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
       sampleapp: "Ứng dụng mẫu"
+      account: "Tài khoản"
+      user: "Người dùng"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      logout: "Đăng xuất"
     footer:
       about: "Về chúng tôi"
       contact: "Liên hệ"
@@ -61,3 +67,9 @@ vi:
     error_messages:
       contain: "Biểu mẫu này chứa"
       error: "lỗi"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      password: "Mật khẩu"
+      new_user: "Người dùng mới?"
+      sigup_now: "Đăng kí ngay"
