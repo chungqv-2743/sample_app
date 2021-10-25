@@ -31,6 +31,19 @@
 
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      sampleapp: "Sample app"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      content: "The %{link_page} by %{link_author}"
+      text_page: "Ruby on Rails Tutorial"
+      text_author: "Michael Hartl"
   static_pages:
     about:
       header: "About"
@@ -62,3 +75,9 @@ en:
       title: "Home"
       content: "This is the home page for the %{link} sample application."
       text: "Ruby on Rails Tutorial"
+      signup: "Sign up now!"
+  users:
+    new:
+      header: "Sign up"
+      title: "Sign up"
+      content: "This will be a signup page for new users."
