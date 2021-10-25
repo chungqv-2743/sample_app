@@ -43,6 +43,15 @@ en:
   activated_fail: "Activated fail"
   account_activated: "Account activated"
   invalid_activation_link: "Invalid activation link"
+  micropost_invalid: "Micropost invalid"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "must be a valid image format"
+              large_size: "should be less than 5MB"
   layouts:
     header:
       home: "Home"
@@ -93,6 +102,7 @@ en:
       content: "This is the home page for the %{link} sample application."
       text: "Ruby on Rails Tutorial"
       signup: "Sign up now!"
+      micropost_feed: "Micropost Feed"
   users:
     index:
       title: "All users"
@@ -105,6 +115,8 @@ en:
       password: "Password"
       password_confirmation: "Password Confirmation"
       create_account: "Create my account"
+    show:
+      microposts: "Microposts"
     edit:
       title: "Edit user"
       header: "Update your profile"
@@ -121,6 +133,13 @@ en:
     error_messages:
       contain: "The form contains"
       error: "error"
+    user_info:
+      view_profile: "View my profile"
+      micropost: "Micropost"
+    micropost_form:
+      new_micropost: "Compose new micropost..."
+      post: "Post"
+      large_size_image: "Maximum size is 5MB. Please choose a smaller file."
   sessions:
     new:
       log_in: "Login"
@@ -166,3 +185,14 @@ en:
       blank: "can't be blank"
       password_reset: "Password has been reset."
       reset_failed: "reset failed"
+  microposts:
+    create:
+      micropost_created: "Micropost created!"
+      micropost_created_fail: "Create fail!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      deleted_fail: "Deleted fail"
+    micropost:
+      posted: "Posted"
+      delete: "Delete"
+      sure: "You sure?"
