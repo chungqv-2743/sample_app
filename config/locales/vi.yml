@@ -8,6 +8,10 @@ vi:
   please_log_in: "Vui lòng đăng nhập"
   user_deleted: "Xóa thành công"
   delete_fail: "Xóa lỗi"
+  check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản"
+  activated_fail: "Tài khoản chưa kích hoạt"
+  account_activated: "Tài khoản đã kích hoạt"
+  invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
   layouts:
     header:
       home: "Trang chủ"
@@ -94,3 +98,11 @@ vi:
       new_user: "Người dùng mới?"
       sigup_now: "Đăng kí ngay"
       remember_me: "Hãy nhớ tôi trên máy tính này"
+  user_mailer:
+    account_activation:
+      header: "Ứng dụng mẫu"
+      greeting: "Xin chào "
+      intro: "Chào mừng đến với ứng dụng mẫu!
+        Nhấn vào đường dẫn phía dưới để kích hoạt tài khoản:"
+      link: "Kích hoạt"
+      info: "Kích hoạt tài khoản"

@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
-  before_action :find_user_by_id, except: %i(index new)
-  before_action :logged_in_user, except: :new
+  before_action :find_user_by_id, except: %i(index new create)
+  before_action :logged_in_user, except: %i(new create)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
   def index
@@ -15,8 +15,9 @@ class UsersController < ApplicationController
     @user = User.new user_params
     return render(:new) unless @user.save
 
-    flash[:success] = t "welcome"
-    redirect_to @user
+    @user.send_activation_email
+    flash[:info] = t "check_email"
+    redirect_to root_url
   end
 
   def show; end
