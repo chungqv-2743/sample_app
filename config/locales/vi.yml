@@ -98,6 +98,7 @@ vi:
       new_user: "Người dùng mới?"
       sigup_now: "Đăng kí ngay"
       remember_me: "Hãy nhớ tôi trên máy tính này"
+      forgot_password: "quên mật khẩu ?"
   user_mailer:
     account_activation:
       header: "Ứng dụng mẫu"
@@ -106,3 +107,33 @@ vi:
         Nhấn vào đường dẫn phía dưới để kích hoạt tài khoản:"
       link: "Kích hoạt"
       info: "Kích hoạt tài khoản"
+    password_reset:
+      header: "Thiết lập lại mật khẩu"
+      intro: "Để đổi mật khẩu vui lòng nhấn vào đường dẫn dưới đây:"
+      link: "Thiết lập lại mật khẩu"
+      paragraph_1: "Đường dẫn này sẽ hết hạn sau 2 tiếng."
+      paragraph_2: "Nếu bạn không yêu cầu thay đổi mật khẩu,
+        vui lòng bỏ qua email này và mật khẩu của bạn sẽ không đổi."
+      info: "Thiết lập lại mật khẩu"
+      forgot_password: "(quên mật khẩu)"
+  password_resets:
+    new:
+      header: "Quên mật khẩu"
+      title: "Quên mật khẩu"
+      submit: "Xác nhận"
+    create:
+      sent_password_reset: "Email được gửi kèm theo hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+    edit:
+      header: "Thiết lập lại mật khẩu"
+      title: "Thiết lập lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      update_password: "Cập nhật mật khẩu"
+      reset_expired: "Yêu cầu thiết lập lại mật khẩu đã hết hạn"
+      error_user: "Chưa kích hoạt/Token không hợp lệ"
+      activated_fail: "Tài khoản chưa kích hoạt"
+    update:
+      blank: "Không thể trống"
+      password_reset: "Mật khẩu đã được thay đổi"
+      reset_failed: "thay đổi lỗi"
