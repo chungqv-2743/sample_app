@@ -13,6 +13,7 @@ class Micropost < ApplicationRecord
                            message: :large_size}
 
   scope :recent_posts, ->{order(created_at: :desc)}
+  scope :find_microposts_user, ->(user){where user_id: user.following_ids << user.id}
 
   def display_image
     image.variant resize_to_limit: [Settings.image_limit, Settings.image_limit]

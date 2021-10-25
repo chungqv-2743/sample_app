@@ -20,3 +20,4 @@ image_limit: 500
 image_type: ["image/jpeg", "image/gif", "image/png"]
 image_types: "image/jpeg,image/gif,image/png"
 max_image_size: 5
+image_size_follow: 30
