@@ -8,3 +8,7 @@ rails_news: "https://news.railstutorial.org/"
 rails_tutorial: "https://www.railstutorial.org/"
 screencast_web: "https://screencasts.railstutorial.org/"
 author: "https://www.michaelhartl.com/"
+max_name_length: 30
+min_password_length: 8
+max_email_length: 255
+email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
