@@ -25,7 +25,7 @@ vi:
       content: "Nhận trợ giúp với Hướng dẫn Ruby on Rails tại
         %{link_page}. Để nhận trợ giúp với ứng dụng mẫu này, xem tại
         %{link_book}."
-      text_page: "Trang Hướng dẫn trợ giúp Rails"
+      text_help_page: "Trang Hướng dẫn trợ giúp Rails"
       text_book: "sách <em>Hướng dẫn Ruby on Rails</em>"
     home:
       header: "Ứng dụng mẫu"
