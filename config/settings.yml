@@ -1,9 +1,10 @@
-
 enabled_locales: ["en", "vi"]
 learn_enough_web: "https://www.learnenough.com/"
 rails: "https://rubyonrails.org/"
 rails_book: "https://www.railstutorial.org/book"
 rails_contact: "https://www.railstutorial.org/contact"
 rails_help: "https://www.railstutorial.org/help"
+rails_news: "https://news.railstutorial.org/"
 rails_tutorial: "https://www.railstutorial.org/"
 screencast_web: "https://screencasts.railstutorial.org/"
+author: "https://www.michaelhartl.com/"
