@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
+gem "bcrypt", "3.1.13"
 gem "config"
 gem "i18n-js"
 gem "rails-i18n"
