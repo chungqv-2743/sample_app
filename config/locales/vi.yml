@@ -1,5 +1,7 @@
 vi:
-  base_title: "Hướng dan Ruby on Rails Sample App"
+  base_title: "Hướng dẫn Ruby on Rails Sample App"
+  wellcome: "Chào mừng đến với Sample App!"
+  error_user: "Không tìm thấy người dùng"
   layouts:
     header:
       home: "Trang chủ"
@@ -51,3 +53,11 @@ vi:
       header: "Đăng ký"
       title: "Đăng ký"
       content: "Đây sẽ là trang đăng ký cho người dùng mới."
+      name: "Tên"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      create_account: "Tạo tài khoản mới"
+  shared:
+    error_messages:
+      contain: "Biểu mẫu này chứa"
+      error: "lỗi"

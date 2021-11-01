@@ -31,6 +31,8 @@
 
 en:
   base_title: "Ruby on Rails Tutorial Sample App"
+  wellcome: "Welcome to the Sample App!"
+  error_user: "Not found user"
   layouts:
     header:
       home: "Home"
@@ -81,3 +83,11 @@ en:
       header: "Sign up"
       title: "Sign up"
       content: "This will be a signup page for new users."
+      name: "Name"
+      password: "Password"
+      password_confirmation: "Password Confirmation"
+      create_account: "Create my account"
+  shared:
+    error_messages:
+      contain: "The form contains"
+      error: "error"

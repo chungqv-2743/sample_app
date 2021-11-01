@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  ATTR_CHANGE = %i(name email password password_confirmation).freeze
   before_save :downcase_email
 
   validates :name, presence: true,
@@ -8,11 +9,11 @@ class User < ApplicationRecord
     format: {with: Settings.email_regex},
     uniqueness: true
   validates :password, presence: true,
-    length: { minimum: Settings.min_password_length}, if: :password
+    length: {minimum: Settings.min_password_length}, if: :password
   has_secure_password
 
   private
   def downcase_email
-    self.email.downcase!
+    email.downcase!
   end
 end
