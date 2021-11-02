@@ -33,12 +33,18 @@ en:
   base_title: "Ruby on Rails Tutorial Sample App"
   wellcome: "Welcome to the Sample App!"
   error_user: "Not found user"
+  invalid: "invalid email or password"
   layouts:
     header:
       home: "Home"
       help: "Help"
       login: "Log in"
       sampleapp: "Sample app"
+      account: "Account"
+      user: "User"
+      profile: "Profile"
+      setting: "Setting"
+      logout: "Logout"
     footer:
       about: "About"
       contact: "Contact"
@@ -91,3 +97,9 @@ en:
     error_messages:
       contain: "The form contains"
       error: "error"
+  sessions:
+    new:
+      log_in: "Login"
+      password: "password"
+      new_user: "New User?"
+      sigup_now: "Sigup Now"
