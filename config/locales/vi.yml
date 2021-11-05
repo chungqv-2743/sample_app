@@ -3,6 +3,11 @@ vi:
   wellcome: "Chào mừng đến với Sample App!"
   error_user: "Không tìm thấy người dùng"
   invalid: "email hoặc mật khẩu không hợp lệ"
+  profile_updated: "Hồ sơ đã được cập nhật"
+  update_fail: "Cập nhật lỗi"
+  please_log_in: "Vui lòng đăng nhập"
+  user_deleted: "Xóa thành công"
+  delete_fail: "Xóa lỗi"
   layouts:
     header:
       home: "Trang chủ"
@@ -55,6 +60,9 @@ vi:
       text: "Hướng dẫn Ruby on Rails"
       signup: "Đăng ký ngay!"
   users:
+    index:
+      title: "Danh sách người dùng"
+      header: "Danh sách người dùng"
     new:
       header: "Đăng ký"
       title: "Đăng ký"
@@ -63,6 +71,18 @@ vi:
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
       create_account: "Tạo tài khoản mới"
+    edit:
+      title: "Chỉnh sửa người dùng"
+      header: "Cập nhật hồ sơ của bạn"
+      save_changes: "Lưu thay đổi"
+      change: "thay đổi"
+    form:
+      name: "Tên"
+      password: "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+    user:
+      delete: "Xóa"
+      sure: "Bạn có chắc chắn muốn xóa?"
   shared:
     error_messages:
       contain: "Biểu mẫu này chứa"
