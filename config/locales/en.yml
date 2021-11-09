@@ -39,6 +39,10 @@ en:
   please_log_in: "Please log in"
   user_deleted: "Delete success"
   delete_fail: "Delete fail"
+  check_email: "Please check your email to activate your account"
+  activated_fail: "Activated fail"
+  account_activated: "Account activated"
+  invalid_activation_link: "Invalid activation link"
   layouts:
     header:
       home: "Home"
@@ -124,3 +128,11 @@ en:
       new_user: "New User?"
       sigup_now: "Sigup Now"
       remember_me: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      header: "Sample App"
+      greeting: "Hi "
+      intro: "Welcome to the Sample App!
+        Click on the link below to activate your account:"
+      link: "Activate"
+      info: "Account activation"

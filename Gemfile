@@ -10,6 +10,7 @@ gem "rails-i18n"
 gem "kaminari"
 gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "3.4.1"
+gem "figaro"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use sqlite3 as the database for Active Record
