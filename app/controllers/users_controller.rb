@@ -20,7 +20,10 @@ class UsersController < ApplicationController
     redirect_to root_url
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.recent_posts.page(params[:page])
+                       .per(Settings.item_in_page)
+  end
 
   def edit; end
 
@@ -42,17 +45,10 @@ class UsersController < ApplicationController
     end
     redirect_to users_url
   end
+
   private
   def user_params
     params.require(:user).permit User::ATTR_CHANGE
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "please_log_in"
-    redirect_to login_url
   end
 
   def correct_user

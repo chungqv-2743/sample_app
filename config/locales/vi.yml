@@ -12,6 +12,15 @@ vi:
   activated_fail: "Tài khoản chưa kích hoạt"
   account_activated: "Tài khoản đã kích hoạt"
   invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
+  micropost_invalid: "Bài viết không hợp lệ"
+  activerecord:
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              invalid_format: "phải có định dạng phù hợp"
+              large_size: "nên nhỏ hơn 5MB"
   layouts:
     header:
       home: "Trang chủ"
@@ -63,6 +72,7 @@ vi:
       content: "Đây là trang chủ cho ứng dụng mẫu của %{link}."
       text: "Hướng dẫn Ruby on Rails"
       signup: "Đăng ký ngay!"
+      micropost_feed: "Bảng tin"
   users:
     index:
       title: "Danh sách người dùng"
@@ -75,6 +85,8 @@ vi:
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
       create_account: "Tạo tài khoản mới"
+    show:
+      microposts: "Các bài viết"
     edit:
       title: "Chỉnh sửa người dùng"
       header: "Cập nhật hồ sơ của bạn"
@@ -91,6 +103,13 @@ vi:
     error_messages:
       contain: "Biểu mẫu này chứa"
       error: "lỗi"
+    user_info:
+      view_profile: "Xem hồ sơ cá nhân"
+      micropost: "Bài viết"
+    micropost_form:
+      new_micropost: "Tạo bài viết mới..."
+      post: "Đăng"
+      large_size_image: "Kích thước tối đa là 5MB. Vui lòng chọn file nhỏ hơn."
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -137,3 +156,14 @@ vi:
       blank: "Không thể trống"
       password_reset: "Mật khẩu đã được thay đổi"
       reset_failed: "thay đổi lỗi"
+  microposts:
+    create:
+      micropost_created: "Bài viết được tạo!"
+      micropost_created_fail: "Tạo thất bại!"
+    destroy:
+      micropost_deleted: "Đã xóa bài viết"
+      deleted_fail: "Xóa thất bại"
+    micropost:
+      posted: "Đăng"
+      delete: "Xóa"
+      sure: "Bạn chắc chứ?"

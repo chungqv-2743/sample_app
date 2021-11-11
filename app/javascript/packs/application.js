@@ -9,7 +9,7 @@ import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 require("jquery")
 import "bootstrap"
-
+require('./validate_image')
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
