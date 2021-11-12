@@ -44,6 +44,8 @@ en:
   account_activated: "Account activated"
   invalid_activation_link: "Invalid activation link"
   micropost_invalid: "Micropost invalid"
+  following: "Following"
+  followers: "Followers"
   activerecord:
     errors:
       models:
@@ -129,6 +131,13 @@ en:
     user:
       delete: "Delete"
       sure: "You sure delete ?"
+    show_follow:
+      microposts: "Micropost"
+      view_my_profile: "View my profile"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "unfollow"
   shared:
     error_messages:
       contain: "The form contains"
@@ -140,6 +149,9 @@ en:
       new_micropost: "Compose new micropost..."
       post: "Post"
       large_size_image: "Maximum size is 5MB. Please choose a smaller file."
+    stats:
+      following: "Following"
+      followers: "Followers"
   sessions:
     new:
       log_in: "Login"

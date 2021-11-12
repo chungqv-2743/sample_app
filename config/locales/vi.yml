@@ -13,6 +13,8 @@ vi:
   account_activated: "Tài khoản đã kích hoạt"
   invalid_activation_link: "Liên kết kích hoạt không hợp lệ"
   micropost_invalid: "Bài viết không hợp lệ"
+  following: "Đang theo dõi"
+  followers: "Người theo dỗi"
   activerecord:
     errors:
       models:
@@ -99,6 +101,13 @@ vi:
     user:
       delete: "Xóa"
       sure: "Bạn có chắc chắn muốn xóa?"
+    show_follow:
+      microposts: "Bài đăng"
+      view_my_profile: "Xem hồ sơ của tôi"
+    follow:
+      follow: "theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
   shared:
     error_messages:
       contain: "Biểu mẫu này chứa"
@@ -110,6 +119,9 @@ vi:
       new_micropost: "Tạo bài viết mới..."
       post: "Đăng"
       large_size_image: "Kích thước tối đa là 5MB. Vui lòng chọn file nhỏ hơn."
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dỗi"
   sessions:
     new:
       log_in: "Đăng nhập"
