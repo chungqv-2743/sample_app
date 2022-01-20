@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 2021_11_09_092552) do
-=======
-ActiveRecord::Schema.define(version: 2021_11_10_045444) do
->>>>>>> Chapter 14: Following users
+ActiveRecord::Schema.define(version: 2022_01_21_030515) do
 
   create_table "active_storage_attachments", charset: "utf8mb3", force: :cascade do |t|
     t.string "name", null: false
@@ -52,8 +48,6 @@ ActiveRecord::Schema.define(version: 2021_11_10_045444) do
     t.index ["user_id", "created_at"], name: "index_microposts_on_user_id_and_created_at"
     t.index ["user_id"], name: "index_microposts_on_user_id"
   end
-<<<<<<< HEAD
-=======
 
   create_table "relationships", charset: "utf8mb3", force: :cascade do |t|
     t.integer "follower_id"
@@ -64,7 +58,14 @@ ActiveRecord::Schema.define(version: 2021_11_10_045444) do
     t.index ["follower_id", "followed_id"], name: "index_relationships_on_follower_id_and_followed_id", unique: true
     t.index ["follower_id"], name: "index_relationships_on_follower_id"
   end
->>>>>>> Chapter 14: Following users
+
+  create_table "request_tokens", charset: "utf8mb3", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.string "token", null: false, comment: "authentication token"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_request_tokens_on_user_id"
+  end
 
   create_table "users", charset: "utf8mb3", force: :cascade do |t|
     t.string "name"
@@ -84,4 +85,5 @@ ActiveRecord::Schema.define(version: 2021_11_10_045444) do
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
   add_foreign_key "active_storage_variant_records", "active_storage_blobs", column: "blob_id"
   add_foreign_key "microposts", "users"
+  add_foreign_key "request_tokens", "users"
 end

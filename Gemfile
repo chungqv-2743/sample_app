@@ -2,6 +2,12 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.1'
+gem "jwt"
+gem "grape"
+gem "grape-entity"
+gem "grape_on_rails_routes"
+gem "grape-swagger"
+gem "grape-swagger-rails"
 gem "bcrypt", "3.1.13"
 gem "faker", "2.1.2"
 gem "config"
